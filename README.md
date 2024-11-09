@@ -68,7 +68,7 @@ La hoja de estilos da un look limpio y profesional a las páginas HTML con:
 
 Este primer ejercicio en DAM me ha permitido conectar con el desarrollo web de una forma muy visual. Me ha encantado poder ver lo que creo en tiempo real mientras escribo el código. Gracias a **Linkin Park** por la inspiración en esta divertida actividad que me ha permitido aprender y disfrutar al mismo tiempo. 🎉
 
----
 
-💻 [Visita mi GitHub](https://github.com/@Jorx8819)
+
+
 
