@@ -1,0 +1,91 @@
+body {											/* PAGINA*/
+    font-family: Arial, sans-serif; 				/* Fuente del texto*/
+    background-color: #f4f4f4; 						/* Color de fondo*/
+    color: #333; 									/* Color del texto*/
+}
+
+img {											/* IMAGEN*/
+    max-width: 100%;								/* No excede el ancho deL contenedor*/
+    height: auto; 									/* Mantiene proporción*/
+}
+
+header {										/* ENCABEZADO*/
+    background-color: #333; 						/* Color de fondo*/
+    color: #fff; 									/* Color del texto*/
+    text-align: center; 							/* Centra el texto*/
+    padding: 20px 0; 								/* Espacio de arriba y abajo*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 		/* Sombra de profundidad*/
+}
+
+header h1 {										/* ENCABEZADO*/
+    font-size: 2.5em; 								/* Tamaño de fuente del título*/
+}
+
+section {										/* SECCIONES*/
+    max-width: 800px; 								/* Ancho máximo*/
+    margin: 20px auto; 								/* Margen superior e inferior y centrado*/
+    padding: 20px; 									/* Espaciado interno*/
+    background-color: #fff; 						/* Color de fondo*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 		/* Sombra para darle profundidad */
+    border-radius: 5px; 							/* Bordes redondeados*/
+}
+
+table {                                        	/* ESTILO GENERAL TABLA*/
+    width: 100%;                               	 	/* Ocupar todo el ancho del contenedor*/
+    border-collapse: collapse;                 	 	/* Colapsa los bordes de las celdas para eliminar el espacio entre ellas*/
+    margin-top: 10px;                           	/* Margen superior para separar de otros elementos*/
+    border: 1px solid #ddd;                     	/* Borde y color gris claro alrededor*/
+}
+
+table, th, td {                                 /* ESTILO APLICADO A TABLA, ENCABEZADO Y CELDAS*/
+    border: 1px solid #ddd;                     	/* Borde y color gris claro alrededor de cada celda*/
+    padding: 10px;                              	/* Relleno interno en cada celda*/
+}
+
+th {                                            /* ESTILO CONCRETO PARA CELDAS DE ENCABEZADO*/
+    background-color: #333;                     	/* Fondo oscuro para destacar*/
+    color: #fff;                                	/* Color de texto en blanco*/
+}
+
+
+fieldset {										/* ESTILO DE LOS CONTENEDORES*/
+    border: 1px solid #ccc; 						/* Borde alrededor del fieldset*/
+    padding: 10px; 									/* Espaciado interno*/
+}
+
+legend {                                        /* ESTILO TITULO DEL FIELDSET*/
+    font-weight: bold;                          	/* Negrita para destacarlo */
+}
+
+label {                                         /* Estilos aplicados a las etiquetas*/
+    display: flex;                              	/* Utiliza flexbox para alinear el contenido dentro de la etiqueta */
+    align-items: center;                        	/* Centra verticalmente el contenido dentro de la etiqueta */
+}
+
+.icono-pago {                                   /* ESTILO ICONO METODO DE PAGO*/
+    width: 40px;                                	/* Define el ancho del icono*/
+    margin-right: 10px;                         	/* Añade margen a la derecha del icono*/
+}
+
+button {                                        /* ESTILO GENERAL BOTÓN*/
+    background-color: #0078D4;                  	/* Color de fondo azul*/
+    color: white;                               	/* Color blanco del texto*/
+    padding: 15px 30px;                         	/* Relleno interno*/
+    font-size: 1em;                             	/* Tamaño de fuente estándar*/
+    border: none;                               	/* Elimina borde alrededor del botón*/
+    cursor: pointer;                            	/* Cambia el cursor a puntero sobre el botón*/
+    margin-top: 20px;                           	/* Añade margen superior*/
+}
+
+button:hover {                                  /* ESTILO BOTON AL PONER CURSOR*/
+    background-color: #4CAF50;                  	/* Cambia el fondo del botón a verde claro*/
+    color: black;                               	/* Color del texto negro*/
+}
+
+footer {                                        /* ESTILO PIE DE PAGINA*/
+    background-color: #333;                     	/* Color de fondo oscuro*/
+    color: white;                               	/* Texto en color blanco*/
+    text-align: center;                         	/* CentraR el texto*/
+    padding: 20px;                              	/* Relleno interno*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);   	/* Sombra vertical, de expansión y color negro semitransparente*/
+}

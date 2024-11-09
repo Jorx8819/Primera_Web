@@ -1,0 +1,160 @@
+<!DOCTYPE html> <!--Declara el tipo de documento como HTML5-->
+
+<html>          <!--Inicio del documento HTML-->
+
+<head>                                                                  <!--Sección de encabezado-->
+	<meta charset="UTF-8">                                              <!--Definir la codificación de caracteres como UTF-8 -->
+	<title>Linkin Park</title>                                          <!--Título que aparece en la pestaña del navegador -->
+	<link rel="stylesheet" href="PAC_UF1_Fernandez_Martinez_Jorge.css"> <!--Enlace a la hoja de estilos CSS externa -->
+	<link rel="icon" href="img/favicon-1ºlogo.png" type="image/x-icon"> <!--Enlace al ícono que aparece en la pestaña del navegador, Favicon -->
+</head>	
+
+<body><!--Inicio del cuerpo  donde se coloca el contenido visible de la página, como texto, imágenes, enlaces y otros elementos interactivos -->
+    
+    <header>                    <!--Encabezado de la página-->
+        <h1>Linkin Park</h1>    <!--Título principal para mostrar en la parte superior de la página-->
+    </header>                   <!--Cierra la sección de encabezado-->
+
+    <section id="Descripcion"><!--Sección de descripción del grupo -->
+
+        <h2>Descripci&oacute;n del Grupo</h2>                       <!--Subtítulo de la sección -->
+		<img src="img/LOGO-20-24.png" alt="LINKIN PARK LOGO-20-24"> <!--Imagen con el logo del grupo -->
+		<p>Banda estadounidense de rock procedente de California, formada en 1996. Actualmente, la banda est&aacute; integrada por:</p>
+
+		<ul> <!--El elemento en HTML es una lista no ordenada (unordered list), Se utiliza para crear una lista de elementos que no tienen un orden numérico específico-->
+			
+            <li><strong>Vocalista, compositor y guitarrista rítmico:</strong> Mike Shinoda</li> <!---->
+			<li><strong>Bajista:</strong> Dave Farrell</li>										<!---->
+			<li><strong>DJ:</strong> Joe Hahn</li>												<!-----Lista de los-->
+			<li><strong>Guitarrista principal:</strong> Brad Delson</li>						<!-----miembros del grupo-->
+			<li><strong>Baterista:</strong> Colin Brittain</li>									<!---->
+			<li><strong>Vocalista y compositora:</strong> Emily Armstrong</li>					<!---->
+		</ul>
+
+		<p>
+			<!--Descripción adicional del grupo y su historia reciente-->
+			Es importante destacar que en 2024, el grupo anunci&oacute; la incorporaci&oacute;n de Armstrong como nueva vocalista, tras el fallecimiento de Chester Bennington en 2017, y Brittain como nuevo baterista, en reemplazo de Rob Bourdon.
+		</p>
+        
+    </section>
+	
+    
+	<section id="fechas">                                           <!--Sección de fechas de conciertos -->
+		<h1>Fechas de Conciertos</h1>                               <!--Título de la sección -->
+		<table>                                                     <!--Tabla para mostrar las fechas de los conciertos -->
+			<thead>                                                 <!--Encabezado de la tabla -->
+				<tr>                                                <!--Inicia una nueva fila en la tabla-->
+					<th>Fecha</th>                                  <!--Encabezado de la columna que muestra la fecha-->
+					<th>Lugar</th>                                  <!--Encabezado de la columna que muestra el lugar-->
+					<th>Hora</th>                                   <!--Encabezado de la columna que muestra la hora-->
+					<th>Precio</th>                                 <!--Encabezado de la columna que muestra el precio-->
+				</tr>                                               <!--Fin de la fila en la tabla-->
+			</thead>                                                <!--Cierra la sección de encabezado de la tabla-->
+			<tbody>                                                 <!--Cuerpo de la tabla con la información de cada concierto -->
+				<tr>
+					<td><b>11/11/2024</b></td>
+					<td><b>Bogot&aacute;, Colombia</b></td>
+					<td><b>20:30</b></td>
+					<td><b>200 Euros</b></td>
+				</tr>
+				<tr>
+					<td><b>15/11/2024</b></td>                      <!--Fecha del concierto -->
+					<td><b>S&atilde;o Paulo, Bras&iacute;l</b></td> <!--Lugar del concierto -->
+					<td><b>20:30</b></td>                           <!--Hora  del concierto -->
+					<td><b>125 Euros</b></td>                       <!--Precio de la entrada -->
+				</tr>
+				<tr>
+					<td><b>16/11/2024</b></td>
+					<td><b>S&atilde;o Paulo, Bras&iacute;l</b></td>
+					<td><b>20:30</b></td>
+					<td><b>95 Euros</b></td>
+				</tr>
+				<tr>
+					<td><b>12/04/2025</b></td>
+					<td><b>Las Vegas, Nevada</b></td>
+					<td><b>10:00</b></td>
+					<td><b>619 Euros</b></td>
+				</tr>
+			</tbody>	                                            <!--Cierra el cuerpo de la tabla donde se lista la información de los conciertos -->
+		</table>	                                                <!--Cierra la tabla que contiene la información de los conciertos -->
+	</section>                                                      <!--Cierra la sección que agrupa la información sobre las fechas de los conciertos -->
+	
+	
+	<section id="Comprar-Entradas">                                                                     <!--Sección de compra de entradas -->
+		<h2>Compra de Entradas</h2>                                                                     <!--Subtítulo de la sección -->
+
+			<p>                                                                                         <!--Inicio de un párrafo-->
+				<label for="nombre">Usuario:</label>                                                    <!--Campo para ingresar el nombre de usuario -->
+				<input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre de usuario"><!--Añadimos un placeholder como guía visual sobre lo que se espera que ingrese el usuario en ese campo. -->
+			</p>                                                                                        <!--Cierre de un párrafo-->
+
+			
+			<p>
+				<label for="fecha">Fecha del Concierto:</label>                                         <!--Añadimos un label para mejorar accesibilidad -->
+				<input type="number" name="entradas" id="entradas" min="1" max="5">          <!--Con las opciones "min" y "max" obligamos al usuario a solo seleccionar unos meses determinados-->
+			</p>
+		
+		
+		<label for="Ciudades"> Ciudad</label>                                                                   <!-- Menú desplegable para seleccionar la ciudad del concierto -->																										
+			<select name="ciudades" id="ciudades">			                                                    <!-- Desplegable para seleccionar la ciudad del concierto -->																			
+				<option value="" disabled hidden selected>Seleccione una Ciudad</option>                        <!--Esta opción será visible para el usuario, pero al desplegarse el resto de opciones, no aparecera ni podrá ser seleccionada-->													
+				<option value="Bogotá, Colombia">Bogotá, Colombia</option>                                      <!--Opción selecionable en el desplegable-->									
+				<option value="1 - S&atilde;o Paulo, Bras&iacute;l">1º Fecha - São Paulo, Bras&iacute;l</option><!--Opción selecionable en el desplegable-->								
+				<option value="2 - S&atilde;o Paulo, Bras&iacute;l">2º Fecha - São Paulo, Bras&iacute;l</option><!--Opción selecionable en el desplegable-->										
+				<option value="Las Vegas, Nevada">Las Vegas, Nevada</option>                                    <!--Opción selecionable en el desplegable-->										
+			</select>	
+			
+		
+		<p>
+			<label for="entradas">Cantidad de Entradas:</label>                 <!--Campo para seleccionar la cantidad de entradas -->
+			<input type="number" name="entradas" id="entradas" min="1" max="5"> <!--Establecemos un número mínimo y un máximo que puede elegir el usuario -->
+		</p>
+
+
+       
+        <fieldset id="metodo-de-pago">      <!--Sección de selección del método de pago -->
+            <legend>Método de Pago</legend> <!--Título del grupo de opciones de pago -->
+            
+            
+            <label>
+                <input type="radio" name="metodo_pago" value="bizum">   <!--Botón de selección del método-->
+                <img src="img/bizum.jpg" alt="bizum" width="50">        <!--Imagen para identificar el método-->
+                Bizum                                                   <!--Nombre del método de pago-->
+            </label>
+            
+            
+            <label>
+                <input type="radio" name="metodo_pago" value="paypal">  
+                <img src="img/paypal.png" alt="PayPal" width="50">      
+                PayPal                                                  
+            </label>
+
+           
+            <label>
+                <input type="radio" name="metodo_pago" value="master">  
+                <img src="img/master.png" alt="Mastercard" width="50">  
+                Mastercard                                              
+            </label>
+
+            
+            <label>
+                <input type="radio" name="metodo_pago" value="visa"> 
+                <img src="img/visa.png" alt="Visa" width="50"> 
+                Visa 
+            </label>
+        </fieldset>
+				
+			
+        <a href="PAC_UF1_Fernandez_Martinez_Jorge_HTML_2.html">     <!--Enlace que redirige a la pagina de confirmación de compra-->
+        <button type="button">Confirmar Compra</button>             <!--Botón que el usuario puede presionar para confirmar la compra -->
+        </a>
+
+	</section>
+
+	
+    <footer><!--Pie de página que contiene información de derechos de autor-->
+        <p>&copy; 2024 Linkin Park. Todos los derechos reservados.</p>	<!--Texto que indica la declaración de derechos reservados-->
+    </footer>
+	
+</body>
+</html>
